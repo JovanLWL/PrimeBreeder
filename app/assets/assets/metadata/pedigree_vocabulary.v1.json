@@ -1,0 +1,1416 @@
+{
+  "schema_version": 1,
+  "locales": [
+    "en",
+    "de",
+    "fr",
+    "es",
+    "it"
+  ],
+  "purpose": "UI terminology and reviewed label aliases for future scanner evaluation; not a trained OCR model.",
+  "generation_convention": "The subject is generation 0. Paths run from subject to ancestor. s = sire; d = dam. Sire branch precedes dam branch in each generation.",
+  "constraints": [
+    "Use layout and relationship context; never assign ancestry from an isolated name.",
+    "Preserve registered names, titles, registry numbers, chips and laboratory values verbatim.",
+    "Do not infer dates from ambiguous formats.",
+    "CKC alone does not identify Canadian Kennel Club vs Continental Kennel Club.",
+    "Document labels do not certify authenticity or purebred status.",
+    "User review is required before any import.",
+    "A registered affix is distinct from a kennel display name. Registration remains optional."
+  ],
+  "entries": [
+    {
+      "id": "registered_name",
+      "kind": "field_label",
+      "storage_field": "dogName",
+      "ui_key": "pedigree_field_registered_name",
+      "labels": {
+        "en": "Registered name",
+        "de": "Eingetragener Name",
+        "fr": "Nom enregistré",
+        "es": "Nombre registrado",
+        "it": "Nome registrato"
+      },
+      "aliases": {
+        "en": [
+          "Dog name",
+          "Name"
+        ],
+        "de": [
+          "Name des Hundes",
+          "Zuchtbuchname"
+        ],
+        "fr": [
+          "Nom du chien"
+        ],
+        "es": [
+          "Nombre del perro"
+        ],
+        "it": [
+          "Nome del cane"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "registration_number",
+      "kind": "field_label",
+      "storage_field": "regNum",
+      "ui_key": "pedigree_field_registration_number",
+      "labels": {
+        "en": "Registration number",
+        "de": "Zuchtbuchnummer",
+        "fr": "Numéro d’inscription",
+        "es": "Número de registro",
+        "it": "Numero di iscrizione"
+      },
+      "aliases": {
+        "en": [
+          "Registration No.",
+          "Reg. No.",
+          "Pedigree number"
+        ],
+        "de": [
+          "ZB-Nr.",
+          "Zuchtbuch-Nr.",
+          "Registrierungsnummer"
+        ],
+        "fr": [
+          "N° d’inscription",
+          "Numéro de pedigree"
+        ],
+        "es": [
+          "N.º de registro",
+          "Número de pedigrí"
+        ],
+        "it": [
+          "N. di iscrizione",
+          "Numero di pedigree"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "date_of_birth",
+      "kind": "field_label",
+      "storage_field": "dateOfBirth",
+      "ui_key": "pedigree_field_date_of_birth",
+      "labels": {
+        "en": "Date of birth",
+        "de": "Wurftag",
+        "fr": "Date de naissance",
+        "es": "Fecha de nacimiento",
+        "it": "Data di nascita"
+      },
+      "aliases": {
+        "en": [
+          "DOB",
+          "Born",
+          "Whelped"
+        ],
+        "de": [
+          "Geburtsdatum",
+          "Geboren am"
+        ],
+        "fr": [
+          "Né le",
+          "Née le"
+        ],
+        "es": [
+          "Nacimiento",
+          "Nacido el",
+          "Nacida el"
+        ],
+        "it": [
+          "Nato il",
+          "Nata il"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "sex",
+      "kind": "field_label",
+      "storage_field": "sex",
+      "ui_key": "pedigree_field_sex",
+      "labels": {
+        "en": "Sex",
+        "de": "Geschlecht",
+        "fr": "Sexe",
+        "es": "Sexo",
+        "it": "Sesso"
+      },
+      "aliases": {
+        "en": [
+          "Gender"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "breed",
+      "kind": "field_label",
+      "storage_field": "breed",
+      "ui_key": "pedigree_field_breed",
+      "labels": {
+        "en": "Breed",
+        "de": "Rasse",
+        "fr": "Race",
+        "es": "Raza",
+        "it": "Razza"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "coat_colour",
+      "kind": "field_label",
+      "storage_field": "color",
+      "ui_key": "pedigree_field_coat_colour",
+      "labels": {
+        "en": "Coat colour",
+        "de": "Fellfarbe",
+        "fr": "Couleur de robe",
+        "es": "Color del manto",
+        "it": "Colore del mantello"
+      },
+      "aliases": {
+        "en": [
+          "Color",
+          "Colour"
+        ],
+        "de": [
+          "Farbe"
+        ],
+        "fr": [
+          "Couleur",
+          "Robe"
+        ],
+        "es": [
+          "Color",
+          "Capa"
+        ],
+        "it": [
+          "Colore",
+          "Mantello"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "microchip",
+      "kind": "field_label",
+      "storage_field": "microchip",
+      "ui_key": "pedigree_field_microchip",
+      "labels": {
+        "en": "Microchip number",
+        "de": "Chipnummer",
+        "fr": "Numéro de puce",
+        "es": "Número de microchip",
+        "it": "Numero di microchip"
+      },
+      "aliases": {
+        "en": [
+          "Microchip",
+          "Chip number"
+        ],
+        "de": [
+          "Chip-Nr.",
+          "Transpondernummer"
+        ],
+        "fr": [
+          "Puce électronique",
+          "Transpondeur"
+        ],
+        "es": [
+          "Microchip",
+          "Transpondedor"
+        ],
+        "it": [
+          "Microchip",
+          "Transponder"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "tattoo",
+      "kind": "field_label",
+      "storage_field": "tattoo",
+      "ui_key": "pedigree_field_tattoo",
+      "labels": {
+        "en": "Tattoo number",
+        "de": "Tätowiernummer",
+        "fr": "Numéro de tatouage",
+        "es": "Número de tatuaje",
+        "it": "Numero di tatuaggio"
+      },
+      "aliases": {
+        "en": [
+          "Tattoo"
+        ],
+        "de": [
+          "Täto-Nr.",
+          "Tätowierung"
+        ],
+        "fr": [
+          "Tatouage"
+        ],
+        "es": [
+          "Tatuaje"
+        ],
+        "it": [
+          "Tatuaggio"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "breeder",
+      "kind": "field_label",
+      "storage_field": "breeder",
+      "ui_key": "pedigree_field_breeder",
+      "labels": {
+        "en": "Breeder",
+        "de": "Züchter",
+        "fr": "Éleveur",
+        "es": "Criador",
+        "it": "Allevatore"
+      },
+      "aliases": {
+        "en": [
+          "Bred by"
+        ],
+        "de": [
+          "Züchterin"
+        ],
+        "fr": [
+          "Éleveuse",
+          "Producteur"
+        ],
+        "es": [
+          "Criadora"
+        ],
+        "it": [
+          "Allevatrice"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "owner",
+      "kind": "field_label",
+      "storage_field": "owner",
+      "ui_key": "pedigree_field_owner",
+      "labels": {
+        "en": "Owner",
+        "de": "Eigentümer",
+        "fr": "Propriétaire",
+        "es": "Propietario",
+        "it": "Proprietario"
+      },
+      "aliases": {
+        "en": [],
+        "de": [
+          "Eigentümerin",
+          "Besitzer"
+        ],
+        "fr": [],
+        "es": [
+          "Propietaria"
+        ],
+        "it": [
+          "Proprietaria"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "kennel_name",
+      "kind": "field_label",
+      "storage_field": "kennelName",
+      "ui_key": "pedigree_field_kennel_name",
+      "labels": {
+        "en": "Kennel name",
+        "de": "Zwingername",
+        "fr": "Nom de l’élevage",
+        "es": "Nombre del criadero",
+        "it": "Nome dell’allevamento"
+      },
+      "aliases": {
+        "en": [],
+        "de": [
+          "Zuchtstättenname"
+        ],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "registered_affix",
+      "kind": "field_label",
+      "storage_field": "kennelAffix",
+      "ui_key": "pedigree_field_registered_affix",
+      "labels": {
+        "en": "Registered kennel affix",
+        "de": "Geschützter Zwingername",
+        "fr": "Affixe enregistré",
+        "es": "Afijo registrado",
+        "it": "Affisso registrato"
+      },
+      "aliases": {
+        "en": [
+          "Kennel affix"
+        ],
+        "de": [
+          "Zwingerschutz"
+        ],
+        "fr": [
+          "Affixe"
+        ],
+        "es": [
+          "Afijo"
+        ],
+        "it": [
+          "Affisso"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "registry",
+      "kind": "field_label",
+      "storage_field": "registry",
+      "ui_key": "pedigree_field_registry",
+      "labels": {
+        "en": "Issuing registry",
+        "de": "Ausstellender Zuchtverband",
+        "fr": "Organisme émetteur",
+        "es": "Registro emisor",
+        "it": "Ente emittente"
+      },
+      "aliases": {
+        "en": [
+          "Kennel club",
+          "Registry"
+        ],
+        "de": [
+          "Zuchtverband"
+        ],
+        "fr": [
+          "Organisme cynophile"
+        ],
+        "es": [
+          "Organización canina"
+        ],
+        "it": [
+          "Ente cinofilo"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "issue_date",
+      "kind": "field_label",
+      "storage_field": "issueDate",
+      "ui_key": "pedigree_field_issue_date",
+      "labels": {
+        "en": "Date of issue",
+        "de": "Ausstellungsdatum",
+        "fr": "Date de délivrance",
+        "es": "Fecha de expedición",
+        "it": "Data di rilascio"
+      },
+      "aliases": {
+        "en": [
+          "Issued on"
+        ],
+        "de": [
+          "Ausgestellt am"
+        ],
+        "fr": [
+          "Délivré le"
+        ],
+        "es": [
+          "Expedido el"
+        ],
+        "it": [
+          "Rilasciato il"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "titles",
+      "kind": "field_label",
+      "storage_field": "titles",
+      "ui_key": "pedigree_field_titles",
+      "labels": {
+        "en": "Titles",
+        "de": "Titel",
+        "fr": "Titres",
+        "es": "Títulos",
+        "it": "Titoli"
+      },
+      "aliases": {
+        "en": [
+          "Champion titles"
+        ],
+        "de": [
+          "Championtitel"
+        ],
+        "fr": [
+          "Titres de champion"
+        ],
+        "es": [
+          "Títulos de campeón"
+        ],
+        "it": [
+          "Titoli di campione"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "pedigree",
+      "kind": "document_label",
+      "storage_field": "documentType",
+      "ui_key": "pedigree_field_pedigree",
+      "labels": {
+        "en": "Pedigree",
+        "de": "Ahnentafel",
+        "fr": "Pedigree",
+        "es": "Pedigrí",
+        "it": "Pedigree"
+      },
+      "aliases": {
+        "en": [
+          "Certificate of ancestry"
+        ],
+        "de": [
+          "Abstammungsnachweis"
+        ],
+        "fr": [
+          "Certificat d’origine"
+        ],
+        "es": [
+          "Certificado de origen"
+        ],
+        "it": [
+          "Certificato di origine"
+        ]
+      },
+      "review_required": true
+    },
+    {
+      "id": "export_pedigree",
+      "kind": "document_label",
+      "storage_field": "documentType",
+      "ui_key": "pedigree_field_export_pedigree",
+      "labels": {
+        "en": "Export pedigree",
+        "de": "Export-Ahnentafel",
+        "fr": "Pedigree d’exportation",
+        "es": "Pedigrí de exportación",
+        "it": "Pedigree di esportazione"
+      },
+      "aliases": {
+        "en": [
+          "Export certificate"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "ancestry_record",
+      "kind": "document_label",
+      "storage_field": "documentType",
+      "ui_key": "pedigree_field_ancestry_record",
+      "labels": {
+        "en": "Ancestry record",
+        "de": "Abstammungsnachweis",
+        "fr": "Document généalogique",
+        "es": "Documento genealógico",
+        "it": "Documento genealogico"
+      },
+      "aliases": {
+        "en": [
+          "Non-Purebred Canine Ancestry"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "sire",
+      "kind": "ancestor_label",
+      "storage_field": "sire",
+      "ui_key": "pedigree_ancestor_sire",
+      "generation": 1,
+      "slot": 1,
+      "path_from_subject": [
+        "s"
+      ],
+      "labels": {
+        "en": "Sire",
+        "de": "Vater",
+        "fr": "Père",
+        "es": "Padre",
+        "it": "Padre"
+      },
+      "aliases": {
+        "en": [
+          "Father"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "dam",
+      "kind": "ancestor_label",
+      "storage_field": "dam",
+      "ui_key": "pedigree_ancestor_dam",
+      "generation": 1,
+      "slot": 2,
+      "path_from_subject": [
+        "d"
+      ],
+      "labels": {
+        "en": "Dam",
+        "de": "Mutter",
+        "fr": "Mère",
+        "es": "Madre",
+        "it": "Madre"
+      },
+      "aliases": {
+        "en": [
+          "Mother"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "ss",
+      "kind": "ancestor_label",
+      "storage_field": "ss",
+      "ui_key": "pedigree_ancestor_ss",
+      "generation": 2,
+      "slot": 1,
+      "path_from_subject": [
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's sire",
+        "de": "Vater des Vaters",
+        "fr": "Père du père",
+        "es": "Padre del padre",
+        "it": "Padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "sd",
+      "kind": "ancestor_label",
+      "storage_field": "sd",
+      "ui_key": "pedigree_ancestor_sd",
+      "generation": 2,
+      "slot": 2,
+      "path_from_subject": [
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's dam",
+        "de": "Mutter des Vaters",
+        "fr": "Mère du père",
+        "es": "Madre del padre",
+        "it": "Madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "ds",
+      "kind": "ancestor_label",
+      "storage_field": "ds",
+      "ui_key": "pedigree_ancestor_ds",
+      "generation": 2,
+      "slot": 3,
+      "path_from_subject": [
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's sire",
+        "de": "Vater der Mutter",
+        "fr": "Père de la mère",
+        "es": "Padre de la madre",
+        "it": "Padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "dd",
+      "kind": "ancestor_label",
+      "storage_field": "dd",
+      "ui_key": "pedigree_ancestor_dd",
+      "generation": 2,
+      "slot": 4,
+      "path_from_subject": [
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's dam",
+        "de": "Mutter der Mutter",
+        "fr": "Mère de la mère",
+        "es": "Madre de la madre",
+        "it": "Madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_0",
+      "kind": "ancestor_label",
+      "storage_field": "g3_0",
+      "ui_key": "pedigree_ancestor_g3_0",
+      "generation": 3,
+      "slot": 1,
+      "path_from_subject": [
+        "s",
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's sire's sire",
+        "de": "Vater des Vaters des Vaters",
+        "fr": "Père du père du père",
+        "es": "Padre del padre del padre",
+        "it": "Padre del padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_1",
+      "kind": "ancestor_label",
+      "storage_field": "g3_1",
+      "ui_key": "pedigree_ancestor_g3_1",
+      "generation": 3,
+      "slot": 2,
+      "path_from_subject": [
+        "s",
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's sire's dam",
+        "de": "Mutter des Vaters des Vaters",
+        "fr": "Mère du père du père",
+        "es": "Madre del padre del padre",
+        "it": "Madre del padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_2",
+      "kind": "ancestor_label",
+      "storage_field": "g3_2",
+      "ui_key": "pedigree_ancestor_g3_2",
+      "generation": 3,
+      "slot": 3,
+      "path_from_subject": [
+        "s",
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's dam's sire",
+        "de": "Vater der Mutter des Vaters",
+        "fr": "Père de la mère du père",
+        "es": "Padre de la madre del padre",
+        "it": "Padre della madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_3",
+      "kind": "ancestor_label",
+      "storage_field": "g3_3",
+      "ui_key": "pedigree_ancestor_g3_3",
+      "generation": 3,
+      "slot": 4,
+      "path_from_subject": [
+        "s",
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's dam's dam",
+        "de": "Mutter der Mutter des Vaters",
+        "fr": "Mère de la mère du père",
+        "es": "Madre de la madre del padre",
+        "it": "Madre della madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_4",
+      "kind": "ancestor_label",
+      "storage_field": "g3_4",
+      "ui_key": "pedigree_ancestor_g3_4",
+      "generation": 3,
+      "slot": 5,
+      "path_from_subject": [
+        "d",
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's sire's sire",
+        "de": "Vater des Vaters der Mutter",
+        "fr": "Père du père de la mère",
+        "es": "Padre del padre de la madre",
+        "it": "Padre del padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_5",
+      "kind": "ancestor_label",
+      "storage_field": "g3_5",
+      "ui_key": "pedigree_ancestor_g3_5",
+      "generation": 3,
+      "slot": 6,
+      "path_from_subject": [
+        "d",
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's sire's dam",
+        "de": "Mutter des Vaters der Mutter",
+        "fr": "Mère du père de la mère",
+        "es": "Madre del padre de la madre",
+        "it": "Madre del padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_6",
+      "kind": "ancestor_label",
+      "storage_field": "g3_6",
+      "ui_key": "pedigree_ancestor_g3_6",
+      "generation": 3,
+      "slot": 7,
+      "path_from_subject": [
+        "d",
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's dam's sire",
+        "de": "Vater der Mutter der Mutter",
+        "fr": "Père de la mère de la mère",
+        "es": "Padre de la madre de la madre",
+        "it": "Padre della madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g3_7",
+      "kind": "ancestor_label",
+      "storage_field": "g3_7",
+      "ui_key": "pedigree_ancestor_g3_7",
+      "generation": 3,
+      "slot": 8,
+      "path_from_subject": [
+        "d",
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's dam's dam",
+        "de": "Mutter der Mutter der Mutter",
+        "fr": "Mère de la mère de la mère",
+        "es": "Madre de la madre de la madre",
+        "it": "Madre della madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_0",
+      "kind": "ancestor_label",
+      "storage_field": "g4_0",
+      "ui_key": "pedigree_ancestor_g4_0",
+      "generation": 4,
+      "slot": 1,
+      "path_from_subject": [
+        "s",
+        "s",
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's sire's sire's sire",
+        "de": "Vater des Vaters des Vaters des Vaters",
+        "fr": "Père du père du père du père",
+        "es": "Padre del padre del padre del padre",
+        "it": "Padre del padre del padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_1",
+      "kind": "ancestor_label",
+      "storage_field": "g4_1",
+      "ui_key": "pedigree_ancestor_g4_1",
+      "generation": 4,
+      "slot": 2,
+      "path_from_subject": [
+        "s",
+        "s",
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's sire's sire's dam",
+        "de": "Mutter des Vaters des Vaters des Vaters",
+        "fr": "Mère du père du père du père",
+        "es": "Madre del padre del padre del padre",
+        "it": "Madre del padre del padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_2",
+      "kind": "ancestor_label",
+      "storage_field": "g4_2",
+      "ui_key": "pedigree_ancestor_g4_2",
+      "generation": 4,
+      "slot": 3,
+      "path_from_subject": [
+        "s",
+        "s",
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's sire's dam's sire",
+        "de": "Vater der Mutter des Vaters des Vaters",
+        "fr": "Père de la mère du père du père",
+        "es": "Padre de la madre del padre del padre",
+        "it": "Padre della madre del padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_3",
+      "kind": "ancestor_label",
+      "storage_field": "g4_3",
+      "ui_key": "pedigree_ancestor_g4_3",
+      "generation": 4,
+      "slot": 4,
+      "path_from_subject": [
+        "s",
+        "s",
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's sire's dam's dam",
+        "de": "Mutter der Mutter des Vaters des Vaters",
+        "fr": "Mère de la mère du père du père",
+        "es": "Madre de la madre del padre del padre",
+        "it": "Madre della madre del padre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_4",
+      "kind": "ancestor_label",
+      "storage_field": "g4_4",
+      "ui_key": "pedigree_ancestor_g4_4",
+      "generation": 4,
+      "slot": 5,
+      "path_from_subject": [
+        "s",
+        "d",
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's dam's sire's sire",
+        "de": "Vater des Vaters der Mutter des Vaters",
+        "fr": "Père du père de la mère du père",
+        "es": "Padre del padre de la madre del padre",
+        "it": "Padre del padre della madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_5",
+      "kind": "ancestor_label",
+      "storage_field": "g4_5",
+      "ui_key": "pedigree_ancestor_g4_5",
+      "generation": 4,
+      "slot": 6,
+      "path_from_subject": [
+        "s",
+        "d",
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's dam's sire's dam",
+        "de": "Mutter des Vaters der Mutter des Vaters",
+        "fr": "Mère du père de la mère du père",
+        "es": "Madre del padre de la madre del padre",
+        "it": "Madre del padre della madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_6",
+      "kind": "ancestor_label",
+      "storage_field": "g4_6",
+      "ui_key": "pedigree_ancestor_g4_6",
+      "generation": 4,
+      "slot": 7,
+      "path_from_subject": [
+        "s",
+        "d",
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Sire's dam's dam's sire",
+        "de": "Vater der Mutter der Mutter des Vaters",
+        "fr": "Père de la mère de la mère du père",
+        "es": "Padre de la madre de la madre del padre",
+        "it": "Padre della madre della madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_7",
+      "kind": "ancestor_label",
+      "storage_field": "g4_7",
+      "ui_key": "pedigree_ancestor_g4_7",
+      "generation": 4,
+      "slot": 8,
+      "path_from_subject": [
+        "s",
+        "d",
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Sire's dam's dam's dam",
+        "de": "Mutter der Mutter der Mutter des Vaters",
+        "fr": "Mère de la mère de la mère du père",
+        "es": "Madre de la madre de la madre del padre",
+        "it": "Madre della madre della madre del padre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_8",
+      "kind": "ancestor_label",
+      "storage_field": "g4_8",
+      "ui_key": "pedigree_ancestor_g4_8",
+      "generation": 4,
+      "slot": 9,
+      "path_from_subject": [
+        "d",
+        "s",
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's sire's sire's sire",
+        "de": "Vater des Vaters des Vaters der Mutter",
+        "fr": "Père du père du père de la mère",
+        "es": "Padre del padre del padre de la madre",
+        "it": "Padre del padre del padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_9",
+      "kind": "ancestor_label",
+      "storage_field": "g4_9",
+      "ui_key": "pedigree_ancestor_g4_9",
+      "generation": 4,
+      "slot": 10,
+      "path_from_subject": [
+        "d",
+        "s",
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's sire's sire's dam",
+        "de": "Mutter des Vaters des Vaters der Mutter",
+        "fr": "Mère du père du père de la mère",
+        "es": "Madre del padre del padre de la madre",
+        "it": "Madre del padre del padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_10",
+      "kind": "ancestor_label",
+      "storage_field": "g4_10",
+      "ui_key": "pedigree_ancestor_g4_10",
+      "generation": 4,
+      "slot": 11,
+      "path_from_subject": [
+        "d",
+        "s",
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's sire's dam's sire",
+        "de": "Vater der Mutter des Vaters der Mutter",
+        "fr": "Père de la mère du père de la mère",
+        "es": "Padre de la madre del padre de la madre",
+        "it": "Padre della madre del padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_11",
+      "kind": "ancestor_label",
+      "storage_field": "g4_11",
+      "ui_key": "pedigree_ancestor_g4_11",
+      "generation": 4,
+      "slot": 12,
+      "path_from_subject": [
+        "d",
+        "s",
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's sire's dam's dam",
+        "de": "Mutter der Mutter des Vaters der Mutter",
+        "fr": "Mère de la mère du père de la mère",
+        "es": "Madre de la madre del padre de la madre",
+        "it": "Madre della madre del padre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_12",
+      "kind": "ancestor_label",
+      "storage_field": "g4_12",
+      "ui_key": "pedigree_ancestor_g4_12",
+      "generation": 4,
+      "slot": 13,
+      "path_from_subject": [
+        "d",
+        "d",
+        "s",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's dam's sire's sire",
+        "de": "Vater des Vaters der Mutter der Mutter",
+        "fr": "Père du père de la mère de la mère",
+        "es": "Padre del padre de la madre de la madre",
+        "it": "Padre del padre della madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_13",
+      "kind": "ancestor_label",
+      "storage_field": "g4_13",
+      "ui_key": "pedigree_ancestor_g4_13",
+      "generation": 4,
+      "slot": 14,
+      "path_from_subject": [
+        "d",
+        "d",
+        "s",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's dam's sire's dam",
+        "de": "Mutter des Vaters der Mutter der Mutter",
+        "fr": "Mère du père de la mère de la mère",
+        "es": "Madre del padre de la madre de la madre",
+        "it": "Madre del padre della madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_14",
+      "kind": "ancestor_label",
+      "storage_field": "g4_14",
+      "ui_key": "pedigree_ancestor_g4_14",
+      "generation": 4,
+      "slot": 15,
+      "path_from_subject": [
+        "d",
+        "d",
+        "d",
+        "s"
+      ],
+      "labels": {
+        "en": "Dam's dam's dam's sire",
+        "de": "Vater der Mutter der Mutter der Mutter",
+        "fr": "Père de la mère de la mère de la mère",
+        "es": "Padre de la madre de la madre de la madre",
+        "it": "Padre della madre della madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    },
+    {
+      "id": "g4_15",
+      "kind": "ancestor_label",
+      "storage_field": "g4_15",
+      "ui_key": "pedigree_ancestor_g4_15",
+      "generation": 4,
+      "slot": 16,
+      "path_from_subject": [
+        "d",
+        "d",
+        "d",
+        "d"
+      ],
+      "labels": {
+        "en": "Dam's dam's dam's dam",
+        "de": "Mutter der Mutter der Mutter der Mutter",
+        "fr": "Mère de la mère de la mère de la mère",
+        "es": "Madre de la madre de la madre de la madre",
+        "it": "Madre della madre della madre della madre"
+      },
+      "aliases": {
+        "en": [],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": []
+      },
+      "review_required": true
+    }
+  ]
+}
