@@ -1,10 +1,11 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-owner-testing-7b40fbac9bf2",
+  "release": "v11-photo-cache-7bc85de1c5b7",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": false,
-  "appMainSha256": "7b40fbac9bf23acaa80cd5486270d78b7f9090ee8ab15bf6147e15d0faeca80a",
-  "baseHref": "/app/"
+  "appMainSha256": "7bc85de1c5b7382668fc11e7103877769878659db7731f18899419b6bcfd3dc9",
+  "baseHref": "/app/",
+  "publication": "clean-republish-20261107"
 }
