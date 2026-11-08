@@ -1,11 +1,11 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-static-photo-2efd4baf6aa2",
+  "release": "v11-auth-parallel-ca907cf14389",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "2efd4baf6aa25d7b29a5386750533c84f44795855f9034003852cb3f45712616",
+  "appMainSha256": "ca907cf14389187e136fa62b9c9697f2cd3e90e76f205be9a8c2e52f2c22e22f",
   "baseHref": "/app/",
-  "publication": "reuse-versioned-private-photos"
+  "publication": "parallel-authoritative-session-checks"
 }
