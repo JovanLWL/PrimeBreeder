@@ -1,11 +1,11 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-ready-photos-76e1fb8946c0",
+  "release": "v11-single-photo-795e75fab9cf",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "76e1fb8946c0b5cce73485cdb27f75bca1f7de14c5719d991043294893128cf4",
+  "appMainSha256": "795e75fab9cf3a04034bb16f28b46aeba8a5a462f696d8104f5b0bddaaa14e13",
   "baseHref": "/app/",
-  "publication": "precomputed-private-photos"
+  "publication": "single-request-private-photo-previews"
 }
