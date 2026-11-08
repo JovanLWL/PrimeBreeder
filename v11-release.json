@@ -1,11 +1,11 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-photo-reuse-05eea90782bc",
+  "release": "v11-photo-batch-6394db55d78d",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "05eea90782bc112e49960b292ad419c9e6d5072f58c9b145884ed5167975ee6a",
+  "appMainSha256": "6394db55d78de9b1673fed1f1db05a7ac3e3f70f48bc02f1151949e6cfadc819",
   "baseHref": "/app/",
-  "publication": "reuse-in-flight-private-photo-previews"
+  "publication": "batch-private-dog-photo-previews"
 }
