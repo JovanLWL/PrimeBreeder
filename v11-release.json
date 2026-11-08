@@ -1,11 +1,11 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-photo-batch-6394db55d78d",
+  "release": "v11-static-photo-2efd4baf6aa2",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "6394db55d78de9b1673fed1f1db05a7ac3e3f70f48bc02f1151949e6cfadc819",
+  "appMainSha256": "2efd4baf6aa25d7b29a5386750533c84f44795855f9034003852cb3f45712616",
   "baseHref": "/app/",
-  "publication": "batch-private-dog-photo-previews"
+  "publication": "reuse-versioned-private-photos"
 }
