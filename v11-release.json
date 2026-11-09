@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-home-split-0159bf482d5b",
+  "release": "v11-home-phases-372ee9d379a8",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "5bcd00a7f1b48e2953230b949bc76aa30b2510b349281ad52d1688333c0069ec",
+  "appMainSha256": "268928d31e2e1855aa96e605ddbd197f5fff93f5bb726b4b0b4a00138e8dc463",
   "baseHref": "/app/",
-  "publication": "defer-web-workspaces-and-home-actions",
-  "appMainPath": "/app/bundles/v11-home-split-0159bf482d5b/main.dart.js"
+  "publication": "home-runtime-phases",
+  "appMainPath": "/app/bundles/v11-home-phases-372ee9d379a8/main.dart.js"
 }
