@@ -4658,5 +4658,19 @@
   "whelping_save": "Save entry",
   "whelping_remove_push": "Remove incorrect pushing entry",
   "whelping_restore_push": "Restore pushing entry",
-  "whelping_push_removed": "Pushing entry removed"
+  "whelping_push_removed": "Pushing entry removed",
+  "whelping_color_4288423856": "Purple",
+  "whelping_color_4284955319": "Deep purple",
+  "whelping_color_4282339765": "Indigo",
+  "whelping_color_4278430196": "Light blue",
+  "whelping_color_4278238420": "Cyan",
+  "whelping_color_4278228616": "Teal",
+  "whelping_color_4287349578": "Light green",
+  "whelping_color_4291681337": "Lime",
+  "whelping_color_4294951175": "Amber",
+  "whelping_color_4294940672": "Orange",
+  "whelping_color_4294924066": "Deep orange",
+  "whelping_color_4286141768": "Brown",
+  "whelping_color_4284513675": "Blue gray",
+  "whelping_color_4278190080": "Black"
 }

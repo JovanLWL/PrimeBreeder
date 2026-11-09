@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-live-whelping-0706bfddff7d",
+  "release": "v11-whelping-collars-b7a9ce06bf3c",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "ba1d6a4ca50042ffddb253ed3be8b5800e05020170c08a09785743dee0599750",
+  "appMainSha256": "1dbf114c5bc8774b22cc0aee1728f2393815ac95fc073e9cfaf59362b39c8b91",
   "baseHref": "/app/",
-  "publication": "live-whelping",
-  "appMainPath": "/app/bundles/v11-live-whelping-0706bfddff7d/main.dart.js"
+  "publication": "live-whelping-collar-palette",
+  "appMainPath": "/app/bundles/v11-whelping-collars-b7a9ce06bf3c/main.dart.js"
 }
