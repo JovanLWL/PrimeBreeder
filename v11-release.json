@@ -1,11 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-auth-parallel-ca907cf14389",
+  "release": "v11-home-split-0159bf482d5b",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "ca907cf14389187e136fa62b9c9697f2cd3e90e76f205be9a8c2e52f2c22e22f",
+  "appMainSha256": "5bcd00a7f1b48e2953230b949bc76aa30b2510b349281ad52d1688333c0069ec",
   "baseHref": "/app/",
-  "publication": "parallel-authoritative-session-checks"
+  "publication": "defer-web-workspaces-and-home-actions",
+  "appMainPath": "/app/bundles/v11-home-split-0159bf482d5b/main.dart.js"
 }
