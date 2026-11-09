@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-travel-waypoints-883edf2acc8c",
+  "release": "v11-route-point-edit-b0ba031ff07c",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "897b4a168cf28a278b9321066f9a00d99b10191ce5277dda1b3c3a95cb96ad8b",
+  "appMainSha256": "be364d16cc46913b43527c04ea796fa04b94c059270f86e8a5c8a01717a75298",
   "baseHref": "/app/",
-  "publication": "validate-travel-route-waypoints",
-  "appMainPath": "/app/bundles/v11-travel-waypoints-883edf2acc8c/main.dart.js"
+  "publication": "enable-route-point-menu-during-leg-edit",
+  "appMainPath": "/app/bundles/v11-route-point-edit-b0ba031ff07c/main.dart.js"
 }
