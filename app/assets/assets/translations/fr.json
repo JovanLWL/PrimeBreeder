@@ -1684,6 +1684,7 @@
   "travel_status_provider_not_configured": "Google Maps n’est pas encore activé.",
   "travel_status_provider_unavailable": "Google Maps est temporairement indisponible.",
   "travel_status_provider_rate_limited": "Limite atteinte. Réessayez plus tard.",
+  "travel_status_route_waypoint_required": "Pour chaque point de l’itinéraire, sélectionnez un résultat Google Maps ou saisissez la latitude et la longitude.",
   "travel_status_route_not_found": "Aucun itinéraire routier n’a été trouvé pour ces lieux.",
   "travel_status_ok": "L’itinéraire est prêt.",
   "travel_manual_distance": "Distance ({unit})",

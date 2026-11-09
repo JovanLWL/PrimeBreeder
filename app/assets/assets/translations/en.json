@@ -1684,6 +1684,7 @@
   "travel_status_provider_not_configured": "Google Maps connection has not been activated yet.",
   "travel_status_provider_unavailable": "Google Maps is temporarily unavailable.",
   "travel_status_provider_rate_limited": "Travel request limit reached. Please try later.",
+  "travel_status_route_waypoint_required": "For each route point, select a Google Maps result or enter both latitude and longitude.",
   "travel_status_route_not_found": "No road route was found for these places.",
   "travel_status_ok": "Route is ready.",
   "travel_manual_distance": "Distance ({unit})",

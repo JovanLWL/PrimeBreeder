@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-home-sdk-363222d025b8",
+  "release": "v11-travel-waypoints-883edf2acc8c",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "268928d31e2e1855aa96e605ddbd197f5fff93f5bb726b4b0b4a00138e8dc463",
+  "appMainSha256": "897b4a168cf28a278b9321066f9a00d99b10191ce5277dda1b3c3a95cb96ad8b",
   "baseHref": "/app/",
-  "publication": "home-firebase-sdk-preload",
-  "appMainPath": "/app/bundles/v11-home-phases-372ee9d379a8/main.dart.js"
+  "publication": "validate-travel-route-waypoints",
+  "appMainPath": "/app/bundles/v11-travel-waypoints-883edf2acc8c/main.dart.js"
 }
