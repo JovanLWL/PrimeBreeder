@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-home-phases-372ee9d379a8",
+  "release": "v11-home-sdk-363222d025b8",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
   "appMainSha256": "268928d31e2e1855aa96e605ddbd197f5fff93f5bb726b4b0b4a00138e8dc463",
   "baseHref": "/app/",
-  "publication": "home-runtime-phases",
+  "publication": "home-firebase-sdk-preload",
   "appMainPath": "/app/bundles/v11-home-phases-372ee9d379a8/main.dart.js"
 }

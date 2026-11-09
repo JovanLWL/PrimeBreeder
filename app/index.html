@@ -32,7 +32,29 @@
 
   <title>Prime Breeder</title>
   <link rel="manifest" href="manifest.json">
-  <!-- Prime Breeder web release: v11-home-phases-372ee9d379a8 -->
+  <!-- Start the exact FlutterFire SDK requests while the Flutter engine loads. -->
+  <script>
+    (() => {
+      const params = new URLSearchParams(location.search);
+      if (params.get('pbPerf') === '1' && params.get('pbSdkPreload') === '0') return;
+      for (const href of [
+        "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js",
+        "https://www.gstatic.com/firebasejs/11.9.1/firebase-app-check.js",
+        "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js",
+        "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js",
+        "https://www.gstatic.com/firebasejs/11.9.1/firebase-messaging.js",
+        "https://www.gstatic.com/firebasejs/11.9.1/firebase-storage.js"
+]) {
+        const link = document.createElement('link');
+        if (!link.relList.supports('modulepreload')) break;
+        link.rel = 'modulepreload';
+        link.crossOrigin = 'anonymous';
+        link.href = href;
+        document.head.append(link);
+      }
+    })();
+  </script>
+  <!-- Prime Breeder web release: v11-home-sdk-363222d025b8 -->
 </head>
 <body>
   <!--
