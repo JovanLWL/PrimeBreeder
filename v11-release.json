@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-route-point-edit-b0ba031ff07c",
+  "release": "v11-live-whelping-0706bfddff7d",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "be364d16cc46913b43527c04ea796fa04b94c059270f86e8a5c8a01717a75298",
+  "appMainSha256": "ba1d6a4ca50042ffddb253ed3be8b5800e05020170c08a09785743dee0599750",
   "baseHref": "/app/",
-  "publication": "enable-route-point-menu-during-leg-edit",
-  "appMainPath": "/app/bundles/v11-route-point-edit-b0ba031ff07c/main.dart.js"
+  "publication": "live-whelping",
+  "appMainPath": "/app/bundles/v11-live-whelping-0706bfddff7d/main.dart.js"
 }
