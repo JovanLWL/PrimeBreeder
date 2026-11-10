@@ -1,13 +1,12 @@
 {
-
   "version": "V11 owner-testing",
-  "release": "v11-breed-smart-a4ac1ed1f027",
+  "release": "v11-dog-database-22d2ccea2d4b",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
-  "backendChanged": true,
-  "appMainSha256": "8016e5a9500786a3f0ff7ec5a1e2f1a7974d3ec2fe3c1b5a01bc2ec67b27bb71",
+  "backendChanged": false,
+  "appMainSha256": "9b202c534856231b45fde327a64bc15a6849fdbdff39ff657c179e9c1569310b",
   "baseHref": "/app/",
-  "publication": "breed-smart-search-only",
-  "appMainPath": "/app/bundles/v11-breed-smart-a4ac1ed1f027/main.dart.js"
+  "publication": "dog-database-and-visibility",
+  "appMainPath": "/app/bundles/v11-dog-database-22d2ccea2d4b/main.dart.js"
 }
