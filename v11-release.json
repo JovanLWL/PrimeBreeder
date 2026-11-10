@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-whelping-collars-b7a9ce06bf3c",
+  "release": "v11-breed-smart-a4ac1ed1f027",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "1dbf114c5bc8774b22cc0aee1728f2393815ac95fc073e9cfaf59362b39c8b91",
+  "appMainSha256": "8016e5a9500786a3f0ff7ec5a1e2f1a7974d3ec2fe3c1b5a01bc2ec67b27bb71",
   "baseHref": "/app/",
-  "publication": "live-whelping-collar-palette",
-  "appMainPath": "/app/bundles/v11-whelping-collars-b7a9ce06bf3c/main.dart.js"
+  "publication": "breed-smart-search-only",
+  "appMainPath": "/app/bundles/v11-breed-smart-a4ac1ed1f027/main.dart.js"
 }
