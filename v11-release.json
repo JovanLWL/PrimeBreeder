@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-dog-database-22d2ccea2d4b",
+  "release": "v11-dog-database-coi-2bc3b8553505",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": false,
-  "appMainSha256": "9b202c534856231b45fde327a64bc15a6849fdbdff39ff657c179e9c1569310b",
+  "appMainSha256": "3ed0d52ab447072d53784a1d62a376bf7f639f8c62f2cb8f2014a58e71520376",
   "baseHref": "/app/",
-  "publication": "dog-database-and-visibility",
-  "appMainPath": "/app/bundles/v11-dog-database-22d2ccea2d4b/main.dart.js"
+  "publication": "dog-database-coi-avk",
+  "appMainPath": "/app/bundles/v11-dog-database-coi-2bc3b8553505/main.dart.js"
 }
