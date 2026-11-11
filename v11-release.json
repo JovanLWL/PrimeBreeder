@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-reproductive-lifecycle-30a8a1e12b3c",
+  "release": "v11-web-whelping-4fbb6f5cbedb",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": true,
-  "appMainSha256": "91cf1c0817b639752f7971b165dc00a08a0c24016beda2fc08ccb357e154fe89",
+  "appMainSha256": "f8467e91fce22b55b87aa3102d10d599747444e0b0412223d3b44f1f3ecadd9b",
   "baseHref": "/app/",
-  "publication": "reproductive-lifecycle",
-  "appMainPath": "/app/bundles/v11-reproductive-lifecycle-30a8a1e12b3c/main.dart.js"
+  "publication": "web-live-whelping",
+  "appMainPath": "/app/bundles/v11-web-whelping-4fbb6f5cbedb/main.dart.js"
 }
