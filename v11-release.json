@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-media-appcheck-31343aaf0f1f",
+  "release": "v11-icon-contours-9da464174e6f",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": false,
-  "appMainSha256": "22f0dcc80fd6da2fb2b2349850f3b11afb6dfaeb34ed15e53f574a8936e1adc8",
+  "appMainSha256": "fdee6bec26f354c3c9474524b3d0b6914bb0532076174345e575288817234f48",
   "baseHref": "/app/",
-  "publication": "web-media-appcheck",
-  "appMainPath": "/app/bundles/v11-media-appcheck-31343aaf0f1f/main.dart.js"
+  "publication": "web-icon-contours",
+  "appMainPath": "/app/bundles/v11-icon-contours-9da464174e6f/main.dart.js"
 }
