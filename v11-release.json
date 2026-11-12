@@ -1,12 +1,12 @@
 {
   "version": "V11 owner-testing",
-  "release": "v11-photo-compression-f9b591de928c",
+  "release": "v11-media-appcheck-31343aaf0f1f",
   "registrationEnabled": false,
   "socialAccountCreationEnabled": false,
   "commercialActivation": false,
   "backendChanged": false,
-  "appMainSha256": "ffadd81025c4fff1b81dd0a8fd17f52a0926dc5fa9fd1514859c211472c92919",
+  "appMainSha256": "22f0dcc80fd6da2fb2b2349850f3b11afb6dfaeb34ed15e53f574a8936e1adc8",
   "baseHref": "/app/",
-  "publication": "web-photo-compression",
-  "appMainPath": "/app/bundles/v11-photo-compression-f9b591de928c/main.dart.js"
+  "publication": "web-media-appcheck",
+  "appMainPath": "/app/bundles/v11-media-appcheck-31343aaf0f1f/main.dart.js"
 }
