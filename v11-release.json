@@ -1,12 +1,12 @@
 {
-  "version": "V11 owner-testing",
-  "release": "v11-membership-frankfurt-ae7ba0eee011-cdn1",
-  "registrationEnabled": false,
-  "socialAccountCreationEnabled": false,
-  "commercialActivation": false,
+  "appMainPath": "/app/bundles/v11-frankfurt-private-photo-cache-ebe3edd31f17/main.dart.js",
+  "appMainSha256": "8695b03ade97bc7ff164ad5b08052a81b2143701a2ff6850b2b52f4cc5f56726",
   "backendChanged": false,
-  "appMainSha256": "40ce75d3ef6eafb6091a227b3196d8808316a7985d0430cf680ce8b085595173",
   "baseHref": "/app/",
-  "publication": "membership-frankfurt-routing",
-  "appMainPath": "/app/bundles/v11-membership-frankfurt-ae7ba0eee011-cdn1/main.dart.js"
+  "commercialActivation": false,
+  "publication": "frankfurt-private-photo-cache",
+  "registrationEnabled": false,
+  "release": "v11-frankfurt-private-photo-cache-ebe3edd31f17",
+  "socialAccountCreationEnabled": false,
+  "version": "V11 owner-testing"
 }
