@@ -1,12 +1,12 @@
 {
-  "appMainPath": "/app/bundles/v11-frankfurt-web-photo-view-6d7fbfd97657/main.dart.js",
-  "appMainSha256": "f346eb3cae2ed8123e97beef12188b2ef46d3aea0d28623cf552153c1fee5120",
+  "appMainPath": "/app/bundles/v11-frankfurt-home-counts-91a91fa86ece/main.dart.js",
+  "appMainSha256": "767674ffc71d47b44a0735e12d4229643acec71076eeac1eec18f44300e3c2e2",
   "backendChanged": false,
   "baseHref": "/app/",
   "commercialActivation": false,
-  "publication": "web-photo-view-continuity",
+  "publication": "home-count-continuity",
   "registrationEnabled": false,
-  "release": "v11-frankfurt-web-photo-view-6d7fbfd97657",
+  "release": "v11-frankfurt-home-counts-91a91fa86ece",
   "socialAccountCreationEnabled": false,
   "version": "V11 owner-testing"
 }
