@@ -1,12 +1,12 @@
 {
-  "appMainPath": "/app/bundles/v11-frankfurt-private-photo-cache-ebe3edd31f17/main.dart.js",
-  "appMainSha256": "8695b03ade97bc7ff164ad5b08052a81b2143701a2ff6850b2b52f4cc5f56726",
+  "appMainPath": "/app/bundles/v11-frankfurt-community-notes-e35391e0ff26/main.dart.js",
+  "appMainSha256": "57a50c448f773bc8522d6a00e9a6c310d3037337fe6dc249d2471a5ae4dabdfc",
   "backendChanged": false,
   "baseHref": "/app/",
   "commercialActivation": false,
-  "publication": "frankfurt-private-photo-cache",
+  "publication": "frankfurt-community-notes-local-cache",
   "registrationEnabled": false,
-  "release": "v11-frankfurt-private-photo-cache-ebe3edd31f17",
+  "release": "v11-frankfurt-community-notes-e35391e0ff26",
   "socialAccountCreationEnabled": false,
   "version": "V11 owner-testing"
 }
