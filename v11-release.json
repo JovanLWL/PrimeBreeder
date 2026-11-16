@@ -1,12 +1,12 @@
 {
-  "appMainPath": "/app/bundles/v11-frankfurt-community-notes-e35391e0ff26/main.dart.js",
-  "appMainSha256": "57a50c448f773bc8522d6a00e9a6c310d3037337fe6dc249d2471a5ae4dabdfc",
+  "appMainPath": "/app/bundles/v11-frankfurt-community-notes-4cdb163187d3/main.dart.js",
+  "appMainSha256": "dbb9263bee790769704002c370c5ef5b93867c55bf72d1f53b12157486d3d432",
   "backendChanged": false,
   "baseHref": "/app/",
   "commercialActivation": false,
   "publication": "frankfurt-community-notes-local-cache",
   "registrationEnabled": false,
-  "release": "v11-frankfurt-community-notes-e35391e0ff26",
+  "release": "v11-frankfurt-community-notes-4cdb163187d3",
   "socialAccountCreationEnabled": false,
   "version": "V11 owner-testing"
 }
