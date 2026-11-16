@@ -1,12 +1,12 @@
 {
-  "appMainPath": "/app/bundles/v11-frankfurt-home-counts-91a91fa86ece/main.dart.js",
-  "appMainSha256": "767674ffc71d47b44a0735e12d4229643acec71076eeac1eec18f44300e3c2e2",
+  "appMainPath": "/app/bundles/v11-frankfurt-home-cards-093f43b0dab4/main.dart.js",
+  "appMainSha256": "e8d71514f46d540f2749a9d2aa3bbe23463c09017868fb07548c47fe6ba007bb",
   "backendChanged": false,
   "baseHref": "/app/",
   "commercialActivation": false,
-  "publication": "home-count-continuity",
+  "publication": "home-card-continuity",
   "registrationEnabled": false,
-  "release": "v11-frankfurt-home-counts-91a91fa86ece",
+  "release": "v11-frankfurt-home-cards-093f43b0dab4",
   "socialAccountCreationEnabled": false,
   "version": "V11 owner-testing"
 }
