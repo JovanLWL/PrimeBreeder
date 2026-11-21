@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="10 18 236 208">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.22" y2="1">
+      <stop stop-color="#9BEAFF"/>
+      <stop offset="0.4" stop-color="#25C8FF"/>
+      <stop offset="0.7" stop-color="#00A9FC"/>
+      <stop offset="1" stop-color="#0875BB"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#63DBFF"/>
+      <stop offset="0.44" stop-color="#00A9FC"/>
+      <stop offset="1" stop-color="#0574B8"/>
+    </linearGradient>
+    <radialGradient id="tip" cx="0.34" cy="0.22" r="0.85">
+      <stop stop-color="#C7F5FF"/>
+      <stop offset="0.55" stop-color="#28C5FF"/>
+      <stop offset="1" stop-color="#0083D1"/>
+    </radialGradient>
+  </defs>
+  <g stroke="#102A43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="url(#body)" d="M26 79 L76 119 L128 34 L180 119 L230 79 L210 191 Q208 202 196 202 H60 Q48 202 46 191 Z"/>
+    <path fill="none" stroke="#D6F6FF" stroke-width="4" opacity="0.85" d="M43 101 L78 129 L128 49 M183 132 L216 105"/>
+    <rect x="47" y="177" width="162" height="37" rx="7" fill="url(#band)"/>
+    <path fill="none" stroke="#C4F2FF" stroke-width="4" d="M60 186 H196"/>
+    <circle cx="26" cy="79" r="11" fill="url(#tip)"/>
+    <circle cx="128" cy="34" r="11" fill="url(#tip)"/>
+    <circle cx="230" cy="79" r="11" fill="url(#tip)"/>
+  </g>
+</svg>
