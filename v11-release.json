@@ -1,12 +1,12 @@
 {
-  "appMainPath": "/app/bundles/v11-website-preview-layout-a2472b20876b/main.dart.js",
-  "appMainSha256": "a2472b20876b77b6b1d58d0f8095b93437f3b301542e1b15e8f10e8b77a90530",
+  "appMainPath": "/app/bundles/v11-website-photo-consent-f1a91fa4b40b/main.dart.js",
+  "appMainSha256": "f1a91fa4b40b23cd11b76be4ce6c7bfffd6992d882843faa41a9424215b7f608",
   "backendChanged": false,
   "baseHref": "/app/",
   "commercialActivation": false,
-  "publication": "website-preview-layout",
+  "publication": "website-photo-consent",
   "registrationEnabled": false,
-  "release": "v11-website-preview-layout-a2472b20876b",
+  "release": "v11-website-photo-consent-f1a91fa4b40b",
   "socialAccountCreationEnabled": false,
   "version": "V11 owner-testing"
 }
