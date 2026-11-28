@@ -1,12 +1,12 @@
 {
-  "appMainPath": "/app/bundles/v11-frankfurt-callables-864179270f9e/main.dart.js",
-  "appMainSha256": "864179270f9e4d02d4c99df26c965228f417fdcf3799cb907215d0614ca282a0",
+  "appMainPath": "/app/bundles/v11-website-private-preview-8e74c939c6ae/main.dart.js",
+  "appMainSha256": "8e74c939c6aeac581458db79106cbd1c4dd6c1b977522cf8a97f0133c5bf8efd",
   "backendChanged": false,
   "baseHref": "/app/",
   "commercialActivation": false,
-  "publication": "frankfurt-six-callables",
+  "publication": "website-private-preview",
   "registrationEnabled": false,
-  "release": "v11-frankfurt-callables-864179270f9e",
+  "release": "v11-website-private-preview-8e74c939c6ae",
   "socialAccountCreationEnabled": false,
   "version": "V11 owner-testing"
 }
